@@ -1,5 +1,9 @@
 # Welcome to Flashly, the flash card study app!
 
+## Table of Contents
+
+remember how to do this
+
 ## My goals for this project
 
 - Practice React fundamental concepts
