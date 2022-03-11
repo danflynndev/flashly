@@ -15,6 +15,9 @@ remember how to do this
 
 ## What I learned
 
+- cannot make updates to state during render method
+- dynamically generate variables using eval()
+
 ## Areas of improvement
 
 ## Features to add

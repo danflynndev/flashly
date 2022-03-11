@@ -3,6 +3,8 @@
 import Answer from '../Answer/Answer';
 
 function FlashCard(props) {
+    
+
     return (
         <div>
             <Answer isRevealed={true} />
