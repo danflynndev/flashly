@@ -1,7 +1,7 @@
 
 function Category(props) {
     function handleClick(e) {
-        props.updateDeck(e.target.value)
+        props.updateDeck(e.target.textContent) // has no value
     }
 
     return (

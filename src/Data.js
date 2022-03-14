@@ -3,7 +3,7 @@ const data = JSON.parse(JSON.stringify(
         "categories": [
             {
                 "categoryName": "Array Methods",
-                "deck": [
+                "cards": [
                     {
                         "title": "pop()",
                         "effect": "Removes last item. Mutates array.",
@@ -18,7 +18,7 @@ const data = JSON.parse(JSON.stringify(
             },
             {
                 "categoryName": "String Methods",
-                "deck": [
+                "cards": [
                     {
                         "title": "substring",
                         "args": "indexStart, indexEnd",

@@ -6,14 +6,14 @@ import Deck from '../Deck/Deck';
 // import FlashCard from '../FlashCard/FlashCard';
 
 import { categories } from '../../Data';
-console.log(categories)
+
 class App extends React.Component {
     constructor(props) {
         super(props);
 
         this.state = {
             categories: categories,
-            activeDeck: categories[0].deck
+            activeDeck: categories[0]
         }
 
         this.createCategories = this.createCategories.bind(this);
@@ -26,7 +26,7 @@ class App extends React.Component {
 
     setActiveDeck(name) {
         const index = this.state.categories.findIndex(element => element.categoryName == name)
-        this.setState({ activeDeck: this.state.categories[index].deck })
+        this.setState({ activeDeck: this.state.categories[index] })
     }
 
     render() {
@@ -34,7 +34,7 @@ class App extends React.Component {
             <div>
                 {this.createCategories()}
                 
-                <Deck deck={this.activeDeck} />
+                <Deck deck={this.state.activeDeck} />
             </div>
         );
     }
@@ -46,8 +46,10 @@ export default App;
 /* 
 ****** TODO ******
 
+General:
 - create module/object to pull category name & Q/A data (test ver)
 - randomize order of cards in 'deck'
+    import all css modules - how does that work? 
 
 Categories:
     d̶y̶n̶a̶m̶i̶c̶ ̶g̶e̶n̶e̶r̶a̶t̶e̶ ̶v̶a̶r̶i̶a̶b̶l̶e̶s̶ ̶-̶ ̶
@@ -61,4 +63,13 @@ Categories:
     generate unique key prop
     change color when selected
 
+
+Arrows:
+    container for logic
+    icons for display
+    one component with indicator (next, prev) to dicate arrow direction & behavior
+
+Answer:
+    clicking & flipping logic
+    needs container? 
 */

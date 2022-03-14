@@ -13,6 +13,13 @@ remember how to do this
 - Brush up on JS methods by building the study materials
 - Provide an interactive resource for other learners
 
+## Thought Processes / Methodologies used
+
+- React Concepts 
+  - Separation of logic & presentation components
+  - Patterns
+    - Child updates parent to change sibling state (arrow button -> flashcard)
+
 ## What I learned
 
 - cannot make updates to state during render method
