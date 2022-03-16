@@ -1,0 +1,11 @@
+@import url('../../index.css');
+
+.Answer {
+    padding: .55rem .77rem;
+    margin: .77rem 0;
+    min-width: 4rem;
+    border: 1px solid black;
+    border-radius: 8px;
+
+    text-align: center;
+}

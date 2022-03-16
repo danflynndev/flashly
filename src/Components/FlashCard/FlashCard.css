@@ -1,0 +1,21 @@
+@import url('../../index.css');
+
+.FlashCard{
+    padding: 2rem;
+
+    /* temp */
+    border: 1px solid black;
+}
+
+.FlashCard-top {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.FlashCard-fields {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

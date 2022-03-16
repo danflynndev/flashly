@@ -1,0 +1,7 @@
+@import url('../../index.css');
+
+.CategoryList {
+    grid-column: 1;
+    background-color: #ffc8c4;
+    text-align: center;
+}
