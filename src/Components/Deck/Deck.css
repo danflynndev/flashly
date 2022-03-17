@@ -1,0 +1,11 @@
+@import url('../../index.css');
+
+.Deck {
+    grid-column: 2;
+    width: 80%;
+    margin: 0 auto;
+
+
+    /* temp */
+
+}

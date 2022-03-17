@@ -13,6 +13,17 @@ const data = JSON.parse(JSON.stringify(
                         "title": "filter()",
                         "args": "(callbackFn, thisArg)",
                         "return": "New array with elements that return truthy inside callbackFn"
+                    },
+                    {
+                        "title": "findIndex()",
+                        "args": "(callbackFn, thisArg)",
+                        "return": "Index of the first element in the array that passes test in callback",
+                        "factoid": "there is also a find() method"
+                    },
+                    {
+                        "title": "every()",
+                        "args": "(callbackFn, thisArg)",
+                        "return": "true if the callback returns truthy for every array element. Otherwise, false."
                     }
                 ]
             },

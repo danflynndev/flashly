@@ -4,8 +4,26 @@
     padding: .55rem .77rem;
     margin: .77rem 0;
     min-width: 4rem;
-    border: 1px solid black;
-    border-radius: 8px;
 
+    background-color: #ebebf3;
+    border-radius: 2px;
     text-align: center;
+
+    transform: rotateY(0deg);
+
+    transition: transform .15s;
+
 }
+
+.Answer.transition {
+    transform: rotateY(90deg);
+
+
+    transition: transform .15s linear;
+}
+
+/* .Answer.revealed {
+    transform: rotateY(-90deg);
+
+    transition: transform .05s linear;
+} */

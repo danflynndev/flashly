@@ -1,6 +1,22 @@
-.back {
-    color: red
+@import url('../../index.css');
+
+button.Arrow {
+    background-color: transparent;
+    border: none;
+    width: 0;
+    height: 0;
 }
-.next {
-    color: blue;
+
+.Arrow svg {
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.Arrow.next:hover, .Arrow.back:hover {
+    box-shadow: 0 0 4px 10px white;
+}
+
+.Arrow.next:active, .Arrow.back:active {
+
 }

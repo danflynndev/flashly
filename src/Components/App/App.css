@@ -2,12 +2,23 @@
 
 .App {
   display: grid;
-  grid-template-columns: 20% 60% 20%;
-  column-gap: 1rem;
+  box-sizing: border-box;
+  grid-template-columns: 20% 80%;
+
 
   margin: 1rem;
   padding: 1rem;
-  
+
   /* temp */
   border: 1px solid black;
+}
+
+.App h1 {
+  grid-column: 1 / span 2;
+
+  font-family: 'Bungee Shade';
+  font-size: 2.5rem;
+  text-align: center;
+
+  margin: 1rem auto 2rem;
 }
